@@ -8,9 +8,9 @@ const page = () => {
   return (
     <>
       <ContactGrid />
+      <Kuller />
       <Pompa />
       <Stakan />
-      <Kuller />
     </>
   );
 };
