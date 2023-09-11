@@ -14,7 +14,7 @@ const Hero = () => {
               </p>
               <div className='buttons'>
                 <mark className='btn text-xl p-1  rounded-md text-red-600 mt-4'>
-                  у нас есть бесплатная доставка
+                  у нас есть бесплатная доставка по Ташкенту
                 </mark>
                 <Link
                   target='_blank'

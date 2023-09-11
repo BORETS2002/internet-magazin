@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <>
-      <header className='text-gray-600 body-font bg-opacity-20 sticky top-0   w-full z-50   shadow-md'>
+      <header className='text-gray-600 body-font bg-white sticky top-0   w-full z-50   shadow-md'>
         <div className='container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center'>
           <Link
             className='flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'
@@ -52,14 +52,15 @@ const Header = () => {
                   pathname == "/pages/Contacts" ||
                   pathname == "/pages/kuller" ||
                   pathname == "/pages/pompa" ||
-                  pathname == "/pages/stakan"
+                  pathname == "/pages/stakan" ||
+                  pathname == "/pages/option"
                     ? "active outline-0 mr-0"
                     : " hover:text-blue-700 'p-2 outline-0 rounded-lg bg-transparent mr-5 "
                 }
               >
                 <option
-                  className='bg-blue-500'
-                  defaultValue='/pages/Contact_water'
+                  className='bg-white text-black'
+                  value='/pages/option'
                   selected={
                     pathname == "/pages/Contact_water"
                       ? false
@@ -67,27 +68,28 @@ const Header = () => {
                       ? pathname == "/pages/Contacts" ||
                         pathname == "/pages/kuller" ||
                         pathname == "/pages/pompa" ||
-                        pathname == "/pages/stakan"
+                        pathname == "/pages/stakan" ||
+                        pathname == "/pages/option"
                         ? false
                         : true
                       : true
                   }
                 >
-                  Продукция
+                  все продукты
                 </option>
-                <option className='bg-blue-500' value='/pages/Contact_water'>
+                <option className='bg-white ' value='/pages/Contact_water'>
                   19.5л воды
                 </option>
-                <option className='bg-blue-500' value='/pages/Contacts'>
+                <option className='bg-white ' value='/pages/Contacts'>
                   200мл воды
                 </option>
-                <option className='bg-blue-500' value='/pages/kuller'>
+                <option className='bg-white ' value='/pages/kuller'>
                   куллер
                 </option>
-                <option className='bg-blue-500' value='/pages/pompa'>
+                <option className='bg-white ' value='/pages/pompa'>
                   помпа
                 </option>
-                <option className='bg-blue-500' value='/pages/stakan'>
+                <option className='bg-white ' value='/pages/stakan'>
                   стаканы
                 </option>
               </select>
