@@ -16,10 +16,8 @@ const ContactMap = () => {
               height='100%'
               className='absolute inset-0'
               title='map'
-              src='https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d95881.12544618716!2d69.2295773490239!3d41.324411937910526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0KLQsNGI0LrQtdC90YIg0YguINCc0LjRgNC30L4g0KPQu9GD0LPQsdC10LrRgdC60LjQuSDRgNCw0LnQvtC9IA!5e0!3m2!1sen!2s!4v1693566426824!5m2!1sen!2s'
-              style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
+              src=' https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5993.439401308225!2d69.329328!3d41.314961!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE4JzUzLjkiTiA2OcKwMTknNDUuNiJF!5e0!3m2!1sen!2s!4v1694630512397!5m2!1sen!2s'
             />
-
             <div className='bg-slate-50  relative flex flex-wrap py-6 rounded shadow-md'>
               <div className='lg:w-1/2 px-6'>
                 <h2 className='title-font font-semibold text-gray-900 tracking-widest text-xs'>

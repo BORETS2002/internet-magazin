@@ -4,7 +4,7 @@ import React from "react";
 const FooterHead = () => {
   return (
     <>
-      <section className='footHeader mt-10 p-5 bg-blue-600 text-white'>
+      <section className='footHeader  p-5 bg-blue-600 text-white'>
         <div className='container'>
           <div className='flex justify-between    align-middle'>
             <div className='w-64'>

@@ -59,7 +59,7 @@ const Header = () => {
                 }
               >
                 <option
-                  className='bg-white text-black'
+                  className='bg-white '
                   disabled
                   selected={
                     pathname == "/pages/Contact_water"

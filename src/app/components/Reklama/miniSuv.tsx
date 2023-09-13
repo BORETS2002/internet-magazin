@@ -3,7 +3,14 @@ import React from "react";
 
 const Reklama = () => {
   return (
-    <>
+    <section
+      style={{
+        backgroundImage:
+          "url(https://uncure-responsiv.netlify.app/images/orqa-fon.svg)",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
       <div className='container   p-5  '>
         <h2 className='text-3xl mb-4 mt-5 text-center text-cyan-600 '>
           наши продукты
@@ -135,7 +142,7 @@ const Reklama = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

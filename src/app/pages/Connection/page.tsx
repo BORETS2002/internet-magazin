@@ -2,10 +2,18 @@ import Link from "next/link";
 
 const Page = () => {
   return (
-    <>
+    <div
+      style={{
+        backgroundImage: "url(https://royxatlar.netlify.app/imgs/glavni.svg)",
+
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <section className='max-w-6xl mx-auto'>
-        <h2 className='text-3xl text-center mt-6 mb-6'>
-          <span id='contact1'>КОНТАКТНАЯ </span>{" "}
+        <h2 className='text-3xl text-center mt-12 mb-5'>
+          <span className='text-white ' id='contact1'>
+            КОНТАКТНАЯ{" "}
+          </span>{" "}
           <span className=' text-blue-600'>ИНФОРМАЦИЯ</span>
         </h2>
         <div className='  md:flex  justify-center  '>
@@ -153,8 +161,7 @@ const Page = () => {
               height='100%'
               className=' inset-0 relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat'
               title='map'
-              src='https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d95881.12544618716!2d69.2295773490239!3d41.324411937910526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0KLQsNGI0LrQtdC90YIg0YguINCc0LjRgNC30L4g0KPQu9GD0LPQsdC10LrRgdC60LjQuSDRgNCw0LnQvtC9IA!5e0!3m2!1sen!2s!4v1693566426824!5m2!1sen!2s'
-              style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
+              src=' https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5993.439401308225!2d69.329328!3d41.314961!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE4JzUzLjkiTiA2OcKwMTknNDUuNiJF!5e0!3m2!1sen!2s!4v1694630512397!5m2!1sen!2s'
             />
 
             {/* <div className='container px-6 md:px-12 md:pl-16'>
@@ -281,7 +288,7 @@ const Page = () => {
           </section>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

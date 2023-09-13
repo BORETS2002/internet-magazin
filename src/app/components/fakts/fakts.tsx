@@ -1,9 +1,17 @@
 const Fakts = () => {
   return (
     <>
-      <section className='pt-8 pb-8'>
+      <section
+        className='pt-16 mt-5 pb-11 '
+        style={{
+          backgroundImage:
+            "url(https://wavio.peerduck.com/wp-content/uploads/2020/12/cut-top.png)",
+          backgroundColor: "#31D8E7",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <div className='container'>
-          <h2 className='text-3xl font-medium title-font text-blue-900 mb-12 text-center'>
+          <h2 className='text-3xl font-medium title-font text-white  mb-12 text-center'>
             видео Факты
           </h2>
           {/* <ul className='list-none flex justify-center    '>
