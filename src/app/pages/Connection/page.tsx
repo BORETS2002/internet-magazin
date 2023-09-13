@@ -111,7 +111,11 @@ const Page = () => {
             </div>
           </div>
           <div className='message__wrap rounded-lg bg-[hsla(0,0%,100%,0.8)]  px-6 py-5 shadow-[0_2px_15px_-3px_rgba(59,101,238,0.7),0_10px_20px_-2px_rgba(59,101,238,0.7)] dark:bg-[rgba(59,101,238,0.7)] dark:shadow-emerald-400 md:py-9 md:px-12 mt-[50px] mr-5  bg-opacity-50 ml-5'>
-            <form action='#' method='POST' autoComplete='off'>
+            <form
+              action='https://formsubmit.co/duawater@mail.ru'
+              method='POST'
+              autoComplete='off'
+            >
               <h3 className='text-2xl mt-3 mb-5 w-full'>
                 Напишите нам сообщение
               </h3>
