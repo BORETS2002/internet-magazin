@@ -60,7 +60,7 @@ const Header = () => {
               >
                 <option
                   className='bg-white text-black'
-                  value='/pages/option'
+                  disabled
                   selected={
                     pathname == "/pages/Contact_water"
                       ? false
@@ -75,7 +75,7 @@ const Header = () => {
                       : true
                   }
                 >
-                  все продукты
+                  продукты
                 </option>
                 <option className='bg-white ' value='/pages/Contact_water'>
                   19.5л воды
@@ -92,6 +92,7 @@ const Header = () => {
                 <option className='bg-white ' value='/pages/stakan'>
                   стаканы
                 </option>
+                <option value='/pages/option'>все продукты</option>
               </select>
             </div>
 
