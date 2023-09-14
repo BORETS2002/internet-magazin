@@ -29,8 +29,8 @@ const Header = () => {
               height={110}
             />
           </Link>
-          <Link className='text-teal-500' href='tel:+998991940101'>
-            +99899 194 01 01
+          <Link className='text-teal-500' href='tel:+998906989999'>
+            90 698 99 99
           </Link>
 
           <nav className='md:ml-auto flex flex-wrap items-center text-base justify-center text-teal-500'>

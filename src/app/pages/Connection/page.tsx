@@ -46,7 +46,7 @@ const Page = () => {
                   </span>
 
                   <div className='text-neutral-500 dark:text-neutral-200'>
-                    <Link href='tel:+998991940101'>+99899 194 01 01</Link>
+                    <Link href='tel:998906989999'>90 698 99 99</Link>
                   </div>
                 </div>
               </div>
@@ -192,7 +192,7 @@ const Page = () => {
                   </span>
 
                   <div className='text-neutral-500 dark:text-neutral-200'>
-                    <Link href='tel:+998991940101'>+99899 194 01 01</Link>
+                    <Link href='tel:+998906989999'> 90 698 99 99</Link>
                   </div>
                 </div>
               </div>
