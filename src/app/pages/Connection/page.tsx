@@ -303,7 +303,7 @@ const Page = () => {
               height='100%'
               className=' h-full w-full inset-0 relative   overflow-hidden bg-cover bg-[100%] bg-no-repeat'
               title='map'
-              src=' https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5993.439401308225!2d69.329328!3d41.314961!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE4JzUzLjkiTiA2OcKwMTknNDUuNiJF!5e0!3m2!1sen!2s!4v1694630512397!5m2!1sen!2s'
+              src=' https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6143.73548071119!2d67.045065!3d39.652691!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDM5JzA5LjciTiA2N8KwMDInNDIuMiJF!5e0!3m2!1sen!2s!4v1694708994172!5m2!1sen!2s'
             />
           </div>
         </div>
