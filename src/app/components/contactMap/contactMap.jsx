@@ -64,7 +64,7 @@ const ContactMap = () => {
                 }
               >
                 {""}
-                2000 сум
+                {/* 2000 сум */}
               </span>{" "}
               <span
                 className={
