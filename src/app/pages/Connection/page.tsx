@@ -162,7 +162,7 @@ const Page = () => {
           </div>
         </div>
 
-        <div className='  md:flex  justify-center  mt-5'>
+        <div className='  md:flex  justify-center  mt-5 mb-5'>
           <div className='contact_wrap '>
             <div className='contact_wrap-one rounded-lg  bg-[hsla(0,0%,100%,0.8)]  px-6 py-5 shadow-[0_2px_15px_-3px_rgba(59,101,238,0.7),0_10px_20px_-2px_rgba(59,101,238,0.7)] dark:bg-[rgba(59,101,238,0.7)] dark:shadow-emerald-400 md:py-9 md:px-12 mt-[50px] mr-5  bg-opacity-50 ml-5'>
               <h2 className=' mb-3 text-2xl'> офис в Самарканде</h2>

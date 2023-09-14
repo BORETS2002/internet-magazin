@@ -57,7 +57,7 @@ const page = () => {
             <Image
               className='rounded-t-lg  imgs__popmp '
               src='/img/stakan1.jpg'
-              width={250}
+              width={390}
               height={250}
               alt='foto'
             />
