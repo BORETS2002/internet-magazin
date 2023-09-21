@@ -18,14 +18,14 @@ export default function RootLayout({ children, params }) {
 
   return (
     <>
-      <html lang={"eng"}>
+      {/* <html lang={"eng"}>
         <body className={inter.className}>
           <Header />
           {children}
           <FooterHead />
           <Footer />
         </body>
-      </html>
+      </html> */}
     </>
   );
 }
